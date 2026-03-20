@@ -10,6 +10,8 @@ export interface CompanySocial {
   instagram?: { url: string; label: string };
   youtube?: { url: string; label: string };
   facebook?: { url: string; label: string };
+  linkedin?: { url: string; label: string };
+  tiktok?: { url: string; label: string };
   podcast?: { url: string; label: string };
 }
 
@@ -43,6 +45,18 @@ export const companyData: CompanyData = {
     facebook: {
       url: "https://facebook.com/lgt.advocacia",
       label: "LGT Advocacia",
+    },
+    youtube: {
+      url: "",
+      label: "",
+    },
+    linkedin: {
+      url: "",
+      label: "",
+    },
+    tiktok: {
+      url: "",
+      label: "",
     },
   },
   units: [
